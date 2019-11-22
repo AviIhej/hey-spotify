@@ -1,0 +1,29 @@
+.arrow {
+    /* text-align: center; */
+    float: right;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    color: #48e474;
+    font-size: 30px;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateX(-30px);
+    }
+    60% {
+      transform: translateX(-15px);
+    }
+  }

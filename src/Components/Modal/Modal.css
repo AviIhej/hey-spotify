@@ -1,0 +1,75 @@
+.modal{
+    width: 50vw;
+    /* width: 50vw; */
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    position: relative;
+    top: 20vh;
+    left: 25%;
+    height: 200px;
+    z-index: 2000;
+    color: black;
+    font-family: 'Josefin Sans', cursive;
+    height: auto;
+}
+
+.modal_header{
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.modal_content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.modal_content img{
+    border-radius:50%;
+    /* object-fit: cover; */
+}
+
+.modal_actions{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    /* background-color: rgb(222, 194, 222); */
+}
+
+.a_title_h1{
+    padding: .5rem;
+    /* background: purple; */
+    color: black;
+    font-size: 42px;
+    margin: 0 auto;
+}
+
+.listen_spotify{
+    padding: 1em;
+    background-color: #2bb952;
+    color: white;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+.modal_header h1{
+  
+}
+
+.btn{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', cursive;
+}
+
+/* @media(min-width: 768px){
+    .modal{
+        width: 30rem;
+        left: calc(100% - 30rem / 2);
+    }
+} */
